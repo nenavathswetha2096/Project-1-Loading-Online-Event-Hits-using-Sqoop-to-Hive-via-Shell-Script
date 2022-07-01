@@ -21,7 +21,7 @@ year_col int,
 month_col int);
 
 
-create table if not exists day_reconceleation(
+create table if not exists reconciliation(
 custid int,
 username varchar(30),
 quote_count varchar(30),
