@@ -1,7 +1,7 @@
 create database if not exists project_1;
 use project_1;
 set global local_infile=1;
-create table if not exists day(
+create table if not exists customers(
 custid int,
 username varchar(30),
 quote_count varchar(30),
@@ -21,7 +21,7 @@ year_col int,
 month_col int);
 
 
-create table if not exists day_recol(
+create table if not exists day_reconceleation(
 custid int,
 username varchar(30),
 quote_count varchar(30),
