@@ -1,0 +1,2 @@
+use project1;
+select * from customers_pro where custid not in (select custid from recon);
