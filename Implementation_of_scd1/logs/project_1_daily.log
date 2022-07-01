@@ -1,0 +1,34 @@
+sql insertion  and updation successfully executed at 2022-06-21 14:55:19
+sqoop imp job successfully executed at 2022-06-21 14:55:19
+hive scd job failed  at 2022-06-21 14:55:19 
+sql insertion  and updation successfully executed at 2022-06-21 14:59:24
+sqoop imp job successfully executed at 2022-06-21 14:59:24
+hive scd successfully executed at 2022-06-21 14:59:24
+sqoop exp job successfully executed at 2022-06-21 14:59:24
+sql commands failed  at 2022-06-21 14:59:24 
+sql insertion  and updation successfully executed at 2022-06-21 15:10:41
+sqoop imp job successfully executed at 2022-06-21 15:10:41
+hive scd successfully executed at 2022-06-21 15:10:41
+sqoop exp job successfully executed at 2022-06-21 15:10:41
+sql commands failed  at 2022-06-21 15:10:41 
+sql insertion  and updation successfully executed at 2022-06-21 15:19:53
+sqoop imp job successfully executed at 2022-06-21 15:19:53
+hive scd successfully executed at 2022-06-21 15:19:53
+sqoop exp job successfully executed at 2022-06-21 15:19:53
+sql comparison successfully executed at 2022-06-21 15:19:53
+archival failed  at 2022-06-21 15:19:53 
+sql insertion  and updation successfully executed at 2022-06-21 15:26:52
+sqoop imp job successfully executed at 2022-06-21 15:26:52
+hive scd successfully executed at 2022-06-21 15:26:52
+sqoop exp job successfully executed at 2022-06-21 15:26:52
+sql comparison successfully executed at 2022-06-21 15:26:52
+archival failed  at 2022-06-21 15:26:52 
+sql insertion  and updation successfully executed at 2022-06-21 15:35:04
+sqoop imp job successfully executed at 2022-06-21 15:35:04
+sql insertion  and updation successfully executed at 2022-06-21 15:37:12
+sqoop imp job successfully executed at 2022-06-21 15:37:12
+hive scd successfully executed at 2022-06-21 15:37:12
+sqoop exp job successfully executed at 2022-06-21 15:37:12
+sql comparison successfully executed at 2022-06-21 15:37:12
+successfully archived at 2022-06-21 15:37:12
+******************************************************************************************************
