@@ -21,6 +21,8 @@
 
 * Implemented Partitioning on Year & Month for fast retrieval
 
+
+
 ## Validation
 
 * Once the pipeline is completed the data is at last checked with input records for the count
@@ -34,3 +36,6 @@
 * All credentails,output direotries, DBMS details are made dynamic using parmeter file and credential files
 
 ## Execution
+
+#### Project Work Flow
+![Alt text](https://github.com/SubhashMurugesan/Hadoop_Warehosue_Data_Pipeline/blob/main/Project_workflow.jpeg?raw=true "Project Flow Daigram")
