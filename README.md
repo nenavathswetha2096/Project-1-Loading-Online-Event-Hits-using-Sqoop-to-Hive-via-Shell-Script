@@ -1,13 +1,36 @@
-# Project-1-Loading-Online-Event-Hits-using-Sqoop-to-Hive-via-Shell-Script
-Sqoop, Hive, Hadoop
-# Description
-In this project Data is sent by the client everyday in CSV format. So load all the data in MySQL everyday and then export it to HDFS. From there load the Data to hive and do the partioning on Year and Month and implement SCD Type-1 Logic and then load the data for Data reconcilation so that no loss of data takes place at any day.
-# Implementation
-The project is to get the file and load the data to RDBMS initially and update the table whenever the changes happend in the data. Steps for Implementing:
+# scd1_hive
+## Client Requirement 
 
-Getting the source files and dump in the Edge Node.
-Load the data from MySQL to HDFS.
-Import the data to hive managed table from HDFS.
-Partition and import the data from the managed table to External table and implement the scd logic from the day 2.
-Create an intermediate table to perform data reconciliation.
-Export the filtered data again to the MySQL table.
+* Daily a file will be coming from the client side about the customer purchase data of file type CSV
+
+* There will be new records every day and there might also be old records that need to be updated
+
+* Client requires SCD TYPE 01 logic to be implemented in the warehouse 
+
+* Also at end of the processing of each day the data  need to be reconciled 
+
+## Data ingestion 
+
+* Data is loaded into MYSQL DBMS using command prompt loading
+
+* The data after some pre-processing then ingested to HDFS using sqoop 
+
+## Date Summarisation and Warehousing 
+
+* Hive is used to manage the Warehousing part
+
+* Implemented Partitioning on Year & Month for fast retrieval
+
+## Validation
+
+* Once the pipeline is completed the data is at last checked with input records for the count
+
+* After every successful operation or failure the log is generated and can be seen for the report and analysis
+
+## Script
+
+* Entire warehousing solution is automated using bash scripts
+
+* All credentails,output direotries, DBMS details are made dynamic using parmeter file and credential files
+
+## Execution
